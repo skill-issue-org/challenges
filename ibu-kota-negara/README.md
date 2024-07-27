@@ -15,7 +15,7 @@ Dibutuhkan kata sandi untuk melakukan simulasi tata ibu kota.
 
 ## Steps to Resolve
 
-We need to crack the program so that it matches up with `vars.Password` ([main.go:39](https://github.com/skill-issue-org/challenges/blob/master/ibu-kota-negara/main.go#L39)) from the `skill-issue.org/ibu-kota-negara/pkg/vars` package. This should be done following the `^[a-z]+$` pattern that's given as a hint. This pattern implies that the password should only contain lowercase letters.
+We need to crack the program so that it matches up with `vars.Password` ([main.go:39](https://github.com/skill-issue-org/challenges/blob/master/ibu-kota-negara/src/main.go#L39)) from the `skill-issue.org/ibu-kota-negara/pkg/vars` package. This should be done following the `^[a-z]+$` pattern that's given as a hint. This pattern implies that the password should only contain lowercase letters.
 
 1. Download `rockyou.txt` common password list.
 2. Execute the following command:
