@@ -1,3 +1,4 @@
-**/dist/*
+**/.goreleaser.*
 **/bin/*
+**/dist/*
 *.zip
